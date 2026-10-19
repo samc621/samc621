@@ -1,16 +1,20 @@
-## Hi there 👋
+Hi, I'm Sam
 
-<!--
-**samc621/samc621** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm building [AgentTrail](https://agenttrail.sh/): observability and guardrails for AI coding agents.
+- [AgentTrail Guard](https://github.com/agenttrailhq/guard) checks every command and file change from Claude Code, Cursor and Codex CLI against 74 guardrails, locally, before it runs. Open source, Apache 2.0, no account.
+- [AgentTrail OS](https://www.agenttrail.sh/agenttrail-os) traces every agent session and turns repeat failures into rules you can backtest on real history before enforcing them.
 
-Here are some ideas to get you started:
+```
+npm i -g @agenttrail/guard
+agenttrail-guard init --agent claude   # or cursor, codex
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I've also run [TechSuite](https://techsuite.io), a fintech engineering studio, since 2016. We provide fractional CTOs and senior engineers for founders shipping financial products. AgentTrail started there, from running coding agents on real client work.
+
+Before AgentTrail: Head of Engineering at Namu, founded the Carrier Integrations team at Canopy Connect, and wrote [SneakerBot](https://github.com/samc621/SneakerBot) (190+ forks).
+
+Ever had an agent run `git reset --hard` on uncommitted work, or `--force-reset` a dev database? [Book an AgentTrail intro](https://calendly.com/d/d3pg-sy5-y6s/agenttrail-intro) and I'll show you how to stop the next one before it runs.
+
+:mailbox: Find me
+
+[Website](https://samuelcorso.com) [LinkedIn](https://www.linkedin.com/in/samc621) [X](https://x.com/samc621) [AgentTrail on X](https://x.com/agenttrailhq)
